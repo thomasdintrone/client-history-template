@@ -1,0 +1,6 @@
+# Remove all the "#" signs below and follow the instructions under the "AuthUserFile"
+
+#AuthType Basic
+#AuthName "Login with your credentials"
+#AuthUserFile <<Replace this with the path mentioned inthe index.php file>>
+#Require valid-user
