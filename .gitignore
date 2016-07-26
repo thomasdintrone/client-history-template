@@ -18,3 +18,8 @@ wp-content/plugins/hello.php
 config.codekit
 .codekit-cache/
 *.codekit
+*.DS_Store
+_notes/
+*.dwsync.xml
+.DS_Store
+.dwsync.xml
