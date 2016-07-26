@@ -12,7 +12,7 @@ Just wanted to make this quick and fairly simple (base understanding of HTML/CSS
 
 **Project Listing:** The PHP script runs through every root level directory (ie: "example-directory, example_directory_3, etc.") and gets the file path (used as the url), directory name, and the "screenshot.png" image (used as a pretty placeholder)
 
-Password Protection: Uses simple .htaccess rules to password protect the main directory, allowing you to give your client a username and password to log in and view their work.
+**Password Protection:** Uses simple .htaccess rules to password protect the main directory, allowing you to give your client a username and password to log in and view their work.
 
 
 ### Adding Your Own Projects
@@ -27,14 +27,14 @@ This is your world! Organize as you see fit..
 *You can remove the 3 example directories I have in here and add yours as needed. Just be sure to add a "**screenshot.png**" file to the directory so the grid displays properly for your clients.
 
 ###Generate a Username/Password:
-Open your "**.htaccess**" file in your preferred text editor, follow the instructions, and when prompted, copy and paste the following: "**path-to-dir/template/protected/.htpasswd**"
+Open your "**.htaccess**" file in your preferred text editor, follow the instructions, and when prompted, copy and paste the following: "**/path-to-dir/template/protected/.htpasswd**"
 
 It should look something like this:
 
     # Remove all the "#" signs below and follow the instructions under the "AuthUserFile"
     AuthType Basic
     AuthName "Login with your credentials"
-    AuthUserFile path-to-dir/template/protected/.htpasswd
+    AuthUserFile /path-to-dir/template/protected/.htpasswd
     Require valid-user
 
 Open the "**.htpasswd**" file in your text editor (located in "/your-site-path/template/protected/.htpasswd"). In their you'll see an example username and generated password:
