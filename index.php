@@ -69,7 +69,7 @@ $block = array('template','_notes');
                 </div>
             	<div role="tabpanel" class="tab-pane fade in" id="generate">
                 	<h2>Generate a Username/Password:</h2>
-                    <p>Open your "<strong>.htaccess</strong>" file in your preferred text editor, follow the instructions, and when prompted, copy and paste the following: "<strong><?php echo dirname(__FILE__); ?>/template/.htpasswd</strong>"<br><br>
+                    <p>Open your "<strong>.htaccess</strong>" file in your preferred text editor, follow the instructions, and when prompted, copy and paste the following: "<strong><?php echo dirname(__FILE__); ?>/template/protected/.htpasswd</strong>"<br><br>
                     It should look something like this:</p>
 <pre><code># Remove all the "#" signs below and follow the instructions under the "AuthUserFile"
 AuthType Basic
